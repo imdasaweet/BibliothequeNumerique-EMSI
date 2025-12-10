@@ -1,20 +1,16 @@
-BibliothequeNumerique_EMSI/
-├── .gitignore
-├── README.md
-├── BibliothequeNumerique.sln
-├── BibliothequeNumerique.csproj
-├── Program.cs
-├── Exceptions/
+BibliothequeNumerique/
+├── Program.cs                 # Programme principal avec menu
+├── Models/                    # Modèles POO
+│   ├── Document.cs           # Classe abstraite
+│   ├── Livre.cs              # Classe Livre
+│   ├── Magazine.cs           # Classe Magazine
+│   ├── DocumentPDF.cs        # Classe DocumentPDF
+│   └── Bibliotheque.cs       # Gestion de la collection
+├── Exceptions/               # Gestion des erreurs
 │   └── DocumentNonTrouveException.cs
-├── Models/
-│   ├── Document.cs
-│   ├── Livre.cs
-│   ├── Magazine.cs
-│   ├── DocumentPDF.cs
-│   └── Bibliotheque.cs
-├── Services/
-│   └── FileService.cs
-├── Data/
+├── Services/                 # Services métier
+│   └── FileService.cs        # Sauvegarde/chargement
+├── Data/                     # Données de test
 │   └── bibliotheque_sauvegarde.txt
-└── Tests/
+└── Tests/                    # Tests manuels
     └── test_instructions.txt
