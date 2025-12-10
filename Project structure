@@ -1,0 +1,20 @@
+BibliothequeNumerique_EMSI/
+├── .gitignore
+├── README.md
+├── BibliothequeNumerique.sln
+├── BibliothequeNumerique.csproj
+├── Program.cs
+├── Exceptions/
+│   └── DocumentNonTrouveException.cs
+├── Models/
+│   ├── Document.cs
+│   ├── Livre.cs
+│   ├── Magazine.cs
+│   ├── DocumentPDF.cs
+│   └── Bibliotheque.cs
+├── Services/
+│   └── FileService.cs
+├── Data/
+│   └── bibliotheque_sauvegarde.txt
+└── Tests/
+    └── test_instructions.txt
