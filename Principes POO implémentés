@@ -1,0 +1,11 @@
+Abstraction : Classe Document abstraite
+
+Encapsulation : Propriétés avec getters/setters
+
+Héritage : 3 classes dérivées de Document
+
+Polymorphisme : Redéfinition de AfficherDetails()
+
+Gestion des exceptions : Exception personnalisée
+
+Gestion des ressources : using et Dispose()
