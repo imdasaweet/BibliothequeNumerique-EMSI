@@ -1,0 +1,37 @@
+
+
+Tests à effectuer pour valider le fonctionnement :
+
+1. TEST DE BASE
+   - Lancer l'application
+   - Ajouter au moins un document de chaque type
+   - Afficher tous les documents
+   - Rechercher par mot-clé (auteur, titre)
+   - Sauvegarder dans un fichier
+
+2. TEST DE CHARGEMENT
+   - Utiliser le fichier Data/bibliotheque_sauvegarde.txt
+   - Charger depuis ce fichier
+   - Vérifier que tous les documents apparaissent
+
+3. TEST D'ERREURS
+   - Supprimer un document avec un ID inexistant
+   - Rechercher un mot-clé qui n'existe pas
+   - Charger un fichier inexistant
+   - Charger un fichier avec format incorrect
+
+4. TEST DE PERFORMANCE
+   - Ajouter 10+ documents
+   - Sauvegarder/charger avec de nombreuses données
+   - Vérifier la libération des ressources
+
+Scénarios de test recommandés :
+-  Ajout -> Affichage -> Sauvegarde -> Chargement
+-  Gestion des erreurs sans plantage
+-  Format CSV correctement parsé
+
+5. TEST DES FONCTIONNALITÉS SPÉCIFIQUES
+   - Vérifier l'affichage détaillé de chaque type
+   - Tester la recherche sensible à la casse
+   - Vérifier la génération d'ID unique
+   - Tester la sauvegarde dans différents chemins
